@@ -1,61 +1,29 @@
-# AI-Powered Career Guidance Engine for Indian Education System
+# AI-Powered Career Guidance Engine
 
-This project is an AI-powered career guidance system designed to assist students in the Indian education system. It leverages machine learning and natural language processing techniques to:
+## What Your App Does
 
-- Analyze student aptitude
-- Extract career aspirations
-- Map skills to relevant career options
-- Provide personalized career recommendations
-- Identify skill gaps for targeted improvement
+This application provides personalized career guidance for students in the Indian education system using AI and machine learning. It analyzes student aptitude, extracts career aspirations, maps skills, and offers tailored career recommendations along with skill gap analysis.
 
-## Features
+## Tech Stack Used
 
-- Aptitude analysis using machine learning models
-- NLP-based extraction of career aspirations from text inputs
-- Skill mapping and skill gap analysis for targeted learning
-- Interactive career recommendation engine tailored to individual profiles
+- **Backend:** Python, Scikit-learn / TensorFlow / PyTorch, NLP libraries (NLTK, SpaCy)  
+- **Frontend:** JavaScript, React or Next.js (if applicable), Node.js  
+- **Deployment & Others:** Streamlit for demo, Flask/Django (optional), npm for package management
 
-## Technologies Used
+## How to Run
 
-- Python programming language
-- Scikit-learn, TensorFlow, or PyTorch for machine learning
-- NLTK or SpaCy for natural language processing
-- Flask or Django for web application interface (optional)
+### 1. Clone the Repository
+git clone https://github.com/brainfogdev/hackthehaze-careerengine.git
+cd hackthehaze-careerengine
 
-## Getting Started
+### 2. Install Dependencies
+# For frontend:
+npm install
+# For backend (Python):
+pip install -r requirements.txt
 
-### Prerequisites
-
-- Python 3.7 or higher installed
-- `pip` package manager
-
-### Installation
-
-1. Clone the repository:
-   git clone https://github.com/ShreyashGajbhiye6/career-guidance-engine.git
-   cd career-guidance-engine
-2. Create and activate a virtual environment:
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install the required Python packages:
-   pip install -r requirements.txt
-
-Usage
-Run the main application script:
-python main.py
-
-Follow the prompts or interact with the system as designed to analyze aptitude, extract aspirations, and get career recommendations.
-
-Project Structure
-=> data/ — Dataset files for training and evaluation
-=> models/ — Pre-trained ML/NLP models
-=> src/ — Source code for processing, training, and prediction
-=> main.py — Entry point for running the application
-
-Contributing
-Contributions are welcome! Please open issues or pull requests to improve the system.
-
-License
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-*Created by Shreyash Gajbhiye*
+### 3. Start the App
+# Frontend:
+npm run dev
+# AI model demo:
+streamlit run app.py
