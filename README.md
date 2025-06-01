@@ -13,8 +13,7 @@ This application provides personalized career guidance for students in the India
 ## How to Run
 
 ### 1. Clone the Repository
-git clone https://github.com/ShreyashGajbhiye6/career-guidance-engine.git
-cd career-guidance-engine
+git clone https://github.com/ShreyashGajbhiye6/career-guidance-engine.git #cd career-guidance-engine
 
 ### 2. Install Dependencies
 - **For frontend:** npm install
