@@ -17,13 +17,13 @@ git clone https://github.com/brainfogdev/hackthehaze-careerengine.git
 cd hackthehaze-careerengine
 
 ### 2. Install Dependencies
-# For frontend:
+For frontend:
 npm install
-# For backend (Python):
+For backend (Python):
 pip install -r requirements.txt
 
 ### 3. Start the App
-# Frontend:
+Frontend:
 npm run dev
-# AI model demo:
+AI model demo:
 streamlit run app.py
